@@ -1,0 +1,11 @@
+<header>
+    <a href={% url "home" %}>Home Page</a><br>
+</header>
+
+<form action = "" method = "post">
+    {% csrf_token %}
+    {{form}}
+    <input type = "submit" value = "Submit">
+</form>
+
+{% block content %} {% endblock %}
