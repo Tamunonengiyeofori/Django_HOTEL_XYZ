@@ -1,9 +1,10 @@
-<header>
-    <a href={% url "create_record" %}>Create New Record</a>
-</header>
-
-<h1>
-    WELCOME TO THE XYZ HOTEL MANAGEMENT SYSTEM
-</h1>
-
+<body style="background-color: yellow;">
+    <header>
+        <a href={% url "create_record" %}  style="position: absolute; top: 40%; left: 45%;">Create New Record</a>
+    </header>
+    
+    <h1 style="text-align: center; margin-top: 100px;">
+        WELCOME TO THE XYZ HOTEL MANAGEMENT SYSTEM
+    </h1>
+</body>
 {% block content %} {% endblock %}
